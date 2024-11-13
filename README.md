@@ -23,7 +23,7 @@
 4. 关联远程仓库：新建一个远程仓库， 使用下面指令进行关联
 
    ```sh
-   git remote add origin https://github.com/xu-xiaoya/Elegent.git
+   git remote add origin https://github.com/test/Demo.git
    ```
 
 5. 推送：把本地仓库的代码推送到远程仓库Github上
@@ -32,7 +32,7 @@
    git push (-u) origin master
    ```
 
-常见错误：新建远程仓库的时候勾选Initialize this repository with a README，推送时可能会报failed to push some refs to https://github.com/test_name/Demo.git的错
+常见错误：新建远程仓库的时候勾选Initialize this repository with a README，推送时可能会报failed to push some refs to https://github.com/test/Demo.git的错
 
 解决方案：这是由于你新创建的那个仓库里面的README文件不在本地仓库目录中，这时可以同步内容。
 
