@@ -32,9 +32,9 @@
    git push (-u) origin master
    ```
 
-**常见错误：**新建远程仓库的时候勾选Initialize this repository with a README，推送时可能会报failed to push some refs to https://github.com/test_name/Demo.git的错
+常见错误：新建远程仓库的时候勾选Initialize this repository with a README，推送时可能会报failed to push some refs to https://github.com/test_name/Demo.git的错
 
-**解决方案：**这是由于你新创建的那个仓库里面的README文件不在本地仓库目录中，这时可以同步内容。
+解决方案：这是由于你新创建的那个仓库里面的README文件不在本地仓库目录中，这时可以同步内容。
 
 ```sh
 # 从远程仓库获取最新的更改，并将这些更改应用到你当前的分支上
