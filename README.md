@@ -44,3 +44,18 @@ git pull --rebase origin master
 git push origin master
 ```
 
+## Undo Commit，Revert Commit，Drop Commit区别
+
+**Undo Commit**
+
+适用情况：代码修改完了，已经Commit了，但是还未push，然后发现还有地方需要修改，但是又不想增加一个新的Commit记录。这时可以进行Undo Commit，修改后再重新Commit。
+
+**Revert Commit**
+
+会新建一个 Revert “xxx Commit”的Commit记录，该记录进行的操作是将"xxx Commit"中对代码进行的修改全部撤销掉。
+
+**Drop Commit（慎用）**
+
+未push的Commit记录：会删除Commit记录，同时Commit中对代码进行的修改也会全部被删除
+
+已push的Commit记录：区别在于线上的Commit记录不会被删除
